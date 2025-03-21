@@ -1,4 +1,4 @@
-num = Math.floor(Math.random() * 20);
+num = Math.floor(Math.random() * 20)+1;
 console.log(num);
 
 if(num %3 ==0 && num %5 ==0){
